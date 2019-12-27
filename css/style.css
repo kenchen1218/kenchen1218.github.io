@@ -1,0 +1,52 @@
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-header {
+    background: #fff;
+    position: relative;
+    width: 100%;
+    transition: all 0.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+    z-index: 9999;
+}
+.main-header__logo {
+    height: auto;
+    width: 18rem;
+    padding-right: 2.0825vw;
+}
+.main-header a {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4rem;
+    letter-spacing: 0.25em;
+    color: #292929;
+    writing-mode: horizontal-tb;
+    transform: inherit;
+    text-decoration: none;
+}
+.main-header li {
+    font-size: inherit;
+    padding: 0 2.0825vw;
+}
+.main-header .nav {
+    display: flex;
+}
+.main-header .row {
+    align-items: center;
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+.center{
+  text-align: center;
+}
