@@ -7,6 +7,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body{
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans';
 }
 ul, ol {
     list-style-type: none;
@@ -31,15 +32,14 @@ ul, ol {
   width: 50%;
 }
 .main-header a {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: normal;
-    font-size: 14px;
+    font-family: 'Open Sans';
+    font-size: 18px;
     line-height: 1.4rem;
-    letter-spacing: 0.25em;
     color: #292929;
     writing-mode: horizontal-tb;
     transform: inherit;
     text-decoration: none;
+    font-weight: normal;
 }
 .main-header li {
     font-size: inherit;
@@ -57,4 +57,7 @@ ul, ol {
     flex-wrap: wrap;
     margin-right: 0;
     margin-left: 0;
+}
+.center{
+  text-align: center;
 }
