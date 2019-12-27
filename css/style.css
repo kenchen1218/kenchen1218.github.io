@@ -16,12 +16,11 @@ ul, ol {
 .main-header {
     background: #fff;
     position: relative;
-    padding: 3.6rem 6rem;
-    position: fixed;
-    top: 0;
+    padding: 5px 40px 0;
     width: 100%;
     transition: all 0.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
     z-index: 9999;
+    border-bottom: 5px solid #c23c40;
 }
 .main-header__logo {
     height: auto;
